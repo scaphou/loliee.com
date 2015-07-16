@@ -1,0 +1,154 @@
+html, body {
+   height:100%;
+   margin:0;
+   padding:0;
+}
+
+body{
+	background: #F5F5F5;
+	color: #777777;
+	font-family: "Lato", Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	line-height: 1;
+	letter-spacing: 1px;
+	font-size: 13px;
+	font-weight: 300;
+}
+
+/* 
+	Document structure 
+*/
+
+#container{
+	margin:3% auto; /* use if centering horizontally  */
+	position:relative;
+	clear:left;
+}
+
+#c1 { 
+	float: left; 
+	width: 55%;
+	clear: both;
+}
+
+#c2 { 
+	width: 45%;
+	float: left;
+	padding: 16px 0 0 0; 
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+/* 
+	Global inline tag definitions
+*/
+h1{
+	color: #2d2f2d;
+	margin: 0;
+}
+a {text-decoration: none;}
+ul {padding: 0;}
+li{padding: 0;}
+
+/*
+ Flat Colors
+*/
+.blue { color: #3498db; }
+.green { color: #2ecc71; }
+
+
+/*===================1280px min============*/
+
+body.big #container {
+	width:875px;	
+}
+body.big #container h1 {
+	font-size:105px;
+	letter-spacing: 10px;
+}
+body.big #container p {
+	font-size:18px;
+	letter-spacing: 2px;
+	padding: 5px;
+	margin-top: 20px;
+}
+body.big #container ul {
+	margin: 20px 0 0 30px;
+}
+body.big #container li {
+	margin: 10px 0 0 45px;
+}
+
+body.big #container li a{
+	font-size:22px;
+}
+
+
+
+/*===================768px min============*/
+body.medium #container {
+	width:640px;
+	
+}
+body.medium #container h1 {
+	font-size:85px;
+	letter-spacing: 10px;
+}
+body.medium #container p {
+	font-size:16px;
+	letter-spacing: 2px;
+	padding: 1px;
+	margin-top: 15px;
+}
+body.medium #container ul {
+	margin: 15px 0 0 25px;
+}
+body.medium #container li {
+	margin: 10px 0 0 35px;
+}
+body.medium #container li a{
+	font-size:18px;
+}
+
+/*===================640px max============*/
+body.small #container{
+	width:400px;
+}
+
+body.small #c1 { 
+	float:none;
+	margin: 0;
+}
+body.small #c2 { 
+	float:none;
+	padding: 0;
+	margin: 0;
+}
+
+body.small #container{
+	padding: 5px;
+}
+
+body.small #container h1 {
+	font-size:65px;
+	letter-spacing: 8px;
+}
+body.small #container p {
+	width: 90%; 
+	font-size:13px;
+	letter-spacing: 2px;
+	padding: 2px;
+	margin-top: 10px;
+}
+body.small #container ul {
+	margin: 0 0 0 20px;
+}
+body.small #container li {
+
+}
+body.small #container li a{
+	font-size:16px;
+}
+
+}

@@ -1,0 +1,18 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//Mac OS X 10.8.5//EN
+N:LOLIÉE;Maxime;;;
+FN:Maxime LOLIÉE
+ORG:Siliadev;
+TITLE:Developpeur Web/Mobile
+EMAIL;type=INTERNET;type=HOME;type=pref:contact@loliee.com
+TEL;type=CELL;type=VOICE;type=pref:
+ADR;type=HOME;type=pref:;;;;;;
+NOTE:Développeur Web/Mobile
+item1.URL;type=pref:loliee.com
+item1.X-ABLabel:_$!<HomePage>!$_
+item2.URL:fr.linkedin.com/in/maximeloliee/
+item2.X-ABLabel:_$!<Other>!$_
+BDAY:
+X-ABUID:864DA03B-6950-4E46-8CAD-E386B77A766C:ABPerson
+END:VCARD
